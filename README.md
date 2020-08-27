@@ -104,10 +104,10 @@ and the setup commands are provided for Ubuntu Linux 18.04.
    "Unleash the power of containers with Pulumi and AKS" https://www.youtube.com/watch?v=j4W5XHCRi74
 
 2.3. Save kubeconfig file and test access to the cluster
-    ```sh
-    pulumi stack output kubeConfig > ../kubeconfig.yaml
-    kubectl get node | grep Ready
-    ```
+   ```sh
+   pulumi stack output kubeConfig > ../kubeconfig.yaml
+   kubectl get node | grep Ready
+   ```
 
 # Train and deploy the model to AKS
 
