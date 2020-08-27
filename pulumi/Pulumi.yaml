@@ -1,0 +1,3 @@
+name: azure-ml-aks-intro
+runtime: nodejs
+description: A minimal Azure TypeScript Pulumi program

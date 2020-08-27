@@ -1,0 +1,18 @@
+# Conda environment specification. The dependencies defined in this file will
+# be automatically provisioned for runs with userManagedDependencies=False.
+
+# Details about the Conda environment file format:
+# https://conda.io/docs/user-guide/tasks/manage-environments.html#create-env-file-manually
+
+name: project_environment
+dependencies:
+- python=3.7
+
+- pip:
+  - azureml-core==1.12.0.*
+  - azureml-defaults==1.12.0
+- numpy==1.17.3
+- pandas==0.25.3
+- scikit-learn==0.21.3
+channels:
+- conda-forge

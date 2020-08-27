@@ -1,0 +1,16 @@
+/bin/*
+!/bin/.gitkeep
+!/bin/*.sh
+node_modules
+kubeconfig.yaml
+ws.py
+primary_key.py
+aws-cli
+/lib
+*~
+.ipynb_checkpoints
+__pycache__
+.azureml
+*pem
+old
+*.txt
