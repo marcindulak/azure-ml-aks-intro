@@ -6,6 +6,8 @@ https://www.pulumi.com/ is used to configure an instance of AKS where the model 
 The instructions can be performed using the Azure free account https://azure.microsoft.com/en-us/free/
 and the setup commands are provided for Ubuntu Linux 18.04.
 
+The total cost of the project is a couple of US dollars.
+
 # Setup software dependencies
 
 1.1. Install Docker https://docs.docker.com/engine/install/
