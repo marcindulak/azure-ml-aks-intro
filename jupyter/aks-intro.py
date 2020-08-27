@@ -294,6 +294,8 @@ get_ipython().system('kubectl delete deployment nginx')
 # - Institution rank (1-4, 1 is best). The original udacity notebook uses the term "Class", but this is not a "Class", but an "Institution" rank, see the section below for details
 # 
 # The dataset originally came from here: http://www.ats.ucla.edu/, most likely from https://stats.idre.ucla.edu/stata/dae/logistic-regression/
+# 
+# The exercise is based on udacity's https://github.com/udacity/deep-learning-v2-pytorch/tree/master/intro-neural-networks/student-admissions
 
 # ## Explanations of the terms used in the dataset
 # 
@@ -418,6 +420,8 @@ plt.show()
 
 # ## 1.4 Scale the data
 # The next step is to scale the data. The range for grades is 1.0-4.0, whereas the range for test scores is 200-800, which is much larger. Let's transform both features into the range 0-1.
+# 
+# Correction: actually the range of GPA should be 0 to 4.
 
 # In[38]:
 
