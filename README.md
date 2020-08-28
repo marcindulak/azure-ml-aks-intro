@@ -60,8 +60,8 @@ The total cost of the project is a couple of US dollars.
 
 1.7. Create a new pulumi project (if not already present)
    ```sh
-   mkdir pulumi
-   cd pulumi
+   mkdir aks-intro
+   cd aks-intro
    pulumi new azure-typescript --name azure-ml-aks-intro
    ```
 
@@ -129,6 +129,6 @@ The total cost of the project is a couple of US dollars.
 
 4.2. Remove the Kubernetes cluster
    ```sh
-   cd pulumi
+   cd aks-intro
    pulumi destroy --yes
    ```
