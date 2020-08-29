@@ -1,7 +1,11 @@
-# Deploy a locally trained model to Azure ML (Machine Learning) AKS (Azure Kubernetes Service)
+# Deploy a locally trained model to AKS (Azure Kubernetes Service)
 
-This tutorial creates a https://scikit-learn.org/ logistic regression model, using a locally running jupyter notebook instance.
+This tutorial starts with a short introduction to several Kubernetes concepts: pods, deployments and services.
+
+Then a https://scikit-learn.org/ logistic regression model is trained using a locally running Jupyter notebook instance.
 https://www.pulumi.com/ is used to configure an instance of AKS where the model is deployed for predictions.
+
+The notebook ends with an exploration of the resources created on the Kubernetes cluster in connection with the prediction endpoint.
 
 The instructions can be performed using the Azure free account https://azure.microsoft.com/en-us/free/
 and the setup commands are provided for Ubuntu Linux 18.04.
